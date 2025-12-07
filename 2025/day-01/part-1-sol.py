@@ -1,3 +1,5 @@
+Day 1, Part 1: Secret Entrance
+
 with open('input.txt') as f:
     position = 50 
     count = 0
