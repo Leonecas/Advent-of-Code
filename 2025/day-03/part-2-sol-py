@@ -1,0 +1,37 @@
+with open(file_path) as f:
+    
+    total = 0
+        
+    for bank in f:
+        bank = bank.strip()
+        if bank:
+            digs = [int(num) for num in bank]
+                
+            if len(digs) < 12:
+                continue
+                
+            selected_positions = []
+            start_idx = 0
+                
+            for pick in range(12):
+                remaining_picks = 12 - pick - 1
+                end_idx = len(digs) - remaining_picks
+                    
+                max_digit = -1
+                max_idx = -1
+                    
+                for pos in range(start_idx, end_idx):
+                    if digs[pos] > max_digit:
+                        max_digit = digs[pos]
+                        max_idx = pos
+                    
+                selected_positions.append(max_digit)
+                start_idx = max_idx + 1
+                
+            number = 0
+            for digit in selected_positions:
+                number = number * 10 + digit
+                
+            total += number
+        
+    print(total)
