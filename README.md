@@ -2,7 +2,6 @@
 My Advent of Code solutions - IST LEIC student
 
 **Name:** Leonor Rodrigues  
-**IST Number:** ist1118192 
 **Course:** LEIC - Computer Science and Engineering  
 **Year:** 1st Year, 1st Semester (2nd Period) (2024/2025)
 
