@@ -5,5 +5,6 @@ We'll see how far I get!
 
 ## 2025 Progress
 - Day 1: Done (Python)
-- Day 2: In progress
-- Day 3-12: Not started
+- Day 2: Done (Python)
+- Day 3: In Progress
+- Day 4-12: Not started
