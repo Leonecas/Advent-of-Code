@@ -17,7 +17,6 @@ with open('input.txt') as f:
         elif direction == 'R':
             position = (position + distance) % 100
         
-        # Count if position is 0 after this move
         if position == 0:
             count += 1
     
