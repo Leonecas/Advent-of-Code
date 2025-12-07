@@ -15,10 +15,5 @@ This repository contains my solutions to [Advent of Code](https://adventofcode.c
 - Prepare for future courses (AC, PO, LP)
 - Build a coding portfolio
 
-## 2025 Progress
-- Day 1: Done (Python)
-- Day 2: In progress
-- Day 3-12: Not started
-
 ## How to Use
 Go to any day's folder and run the Python files.
