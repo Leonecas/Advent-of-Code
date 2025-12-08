@@ -12,7 +12,7 @@ This repository contains my solutions to [Advent of Code](https://adventofcode.c
 ## Why I'm Doing This
 - Practice programming outside class
 - Improve problem-solving skills
-- Prepare for future courses (AC, PO, LP)
+- Prepare for future course
 - Build a coding portfolio
 
 ## How to Use
